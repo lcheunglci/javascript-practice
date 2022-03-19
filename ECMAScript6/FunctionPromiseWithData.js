@@ -35,6 +35,6 @@ let spaceNames = () =>
 getSpacePeople()
   .then((json) => json.people)
   .then ((people) => people.map((p) => p.name))
-  .then(names => names.join());
+  .then(names => names.join(', '));
 
 spaceNames().then(console.log);
