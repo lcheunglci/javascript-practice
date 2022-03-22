@@ -34,3 +34,12 @@ const getPersonData = () => ({
   age: 25,
   job: 'programmer',
 });
+
+console.log(getPersonData());
+
+const myArrowFunction = (arg1, arg2) => {
+  console.log('does something');
+  return arg1 + arg2;
+};
+
+console.log(myArrowFunction(2, 3));
