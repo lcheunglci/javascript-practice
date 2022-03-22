@@ -20,4 +20,17 @@ const add = (x, y) => x + y;
 
 // const double = number => number * 2;
 
+// const double = function(number) {
+//     return number *2;
+// }
+
+const sayHello = () => console.log('Hello');
+
+sayHello();
 console.log(add(4, 5));
+
+const getPersonData = () => ({
+  name: 'John Doe',
+  age: 25,
+  job: 'programmer',
+});
