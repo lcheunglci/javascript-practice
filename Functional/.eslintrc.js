@@ -1,18 +1,15 @@
+/* eslint-disable immutable/no-mutation */
 module.exports = {
   env: {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'airbnb-base',
-  ],
+  extends: ['airbnb-base'],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: [
-    'immutable',
-  ],
+  plugins: ['immutable'],
   rules: {
     'immutable/no-mutation': 2,
     'linebreak-style': 0,
