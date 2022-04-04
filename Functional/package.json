@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "hello-world.js",
+  "type": "module",
   "scripts": {
     "lint": "npx eslint ."
   },
@@ -13,5 +14,8 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-immutable": "^1.0.0",
     "eslint-plugin-import": "^2.25.4"
+  },
+  "dependencies": {
+    "an-array-of-english-words": "^2.0.0"
   }
 }
