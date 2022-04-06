@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const currentInputValues = {
   firstName: 'Sam', // Must be at least 2 characters
   lastName: 'Bill', // lastName Must be at least 2 characters
